@@ -1,0 +1,14 @@
+C:\Users\dawid\source\repos\h1lfiger\h1lfiger\bin\Debug\h1lfiger.exe.config
+C:\Users\dawid\source\repos\h1lfiger\h1lfiger\bin\Debug\h1lfiger.exe
+C:\Users\dawid\source\repos\h1lfiger\h1lfiger\bin\Debug\h1lfiger.pdb
+C:\Users\dawid\source\repos\h1lfiger\h1lfiger\bin\Debug\Anarchy.dll
+C:\Users\dawid\source\repos\h1lfiger\h1lfiger\bin\Debug\Leaf.xNet.dll
+C:\Users\dawid\source\repos\h1lfiger\h1lfiger\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dawid\source\repos\h1lfiger\h1lfiger\bin\Debug\websocket-sharp.dll
+C:\Users\dawid\source\repos\h1lfiger\h1lfiger\bin\Debug\Leaf.xNet.xml
+C:\Users\dawid\source\repos\h1lfiger\h1lfiger\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dawid\source\repos\h1lfiger\h1lfiger\obj\Debug\h1lfiger.csprojAssemblyReference.cache
+C:\Users\dawid\source\repos\h1lfiger\h1lfiger\obj\Debug\h1lfiger.csproj.CoreCompileInputs.cache
+C:\Users\dawid\source\repos\h1lfiger\h1lfiger\obj\Debug\h1lfiger.csproj.CopyComplete
+C:\Users\dawid\source\repos\h1lfiger\h1lfiger\obj\Debug\h1lfiger.exe
+C:\Users\dawid\source\repos\h1lfiger\h1lfiger\obj\Debug\h1lfiger.pdb
