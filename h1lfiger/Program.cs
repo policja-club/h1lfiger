@@ -12,13 +12,18 @@ using System.Drawing;
 using System.Resources;
 using System.Net.Http;
 using System.Net;
+using System.Runtime.InteropServices;
 
 namespace h1lfiger
 {
     class Program
     {
         const string hilfiger = "hilf1ger @dup4slon1a:~$ ./j4npw3l - ";
+        const string sound = "guwno.wav";
         static DiscordSocketClient client = new DiscordSocketClient();
+        static WebClient http = new WebClient();
+
+        static System.Media.SoundPlayer player = new System.Media.SoundPlayer();
 
         static void Login(string token)
         {
@@ -41,6 +46,7 @@ namespace h1lfiger
                     hilfiger + "ID: " + client.GetUser(id).Id +
                     "\n" +
                     hilfiger + "WE ARE ANONYNIUS WE ARE THE LEGION"); Thread.Sleep(500);
+
             }
             catch
             {
@@ -87,7 +93,6 @@ namespace h1lfiger
 
             Console.WriteLine(hilfiger + "Account user status set to: offline \n");
 
-            WebClient http = new WebClient();
             http.DownloadFile("https://media.discordapp.net/attachments/729323613877960724/735555010691072101/unknown.png", "image.png");
 
 
@@ -104,6 +109,11 @@ namespace h1lfiger
         static void Main(string[] args)
         {
             Console.Title = "$ h1lfiger5qu4d";
+
+            http.DownloadFile("https://cdn.discordapp.com/attachments/729323613877960724/741026268673474580/wav.wav", sound);
+            player.SoundLocation = sound;
+            player.Load();
+            player.PlaySync();
 
         main_menu:
             Console.Clear();
