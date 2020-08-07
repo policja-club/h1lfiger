@@ -17,9 +17,10 @@
     </p>   -> Badges 📈 <p>
 
 ### To-Do list
-- ⏳
-- ⏳
-- ⏳
+- ⏳ Code clean-up
+- ⏳ Data transfer through webhook
+- ⏳ Auto-Update
+- ⏳ Discord feedback server
 
 ### Socials:
 [<img align="left" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />](https://www.youtube.com/channel/UCdfBFiwrZLM0QZE8jM73EMA?view_as=subscriber)
