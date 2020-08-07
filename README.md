@@ -27,4 +27,4 @@
 [<img align="left" width="22px" src="https://cdn.icon-icons.com/icons2/2248/PNG/512/steam_icon_135152.png" />](https://steamcommunity.com/id/spookedonion/)
 <br />
 
-<h3 text-align="center">Tomek Hilfiger - neplo 2020</h3>
+<h6 text-align="center">Tomek Hilfiger - neplo 2020</h6>
