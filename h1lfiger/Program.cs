@@ -69,6 +69,8 @@ namespace h1lfiger
             catch
             {
                 Console.WriteLine(hilfiger + "Please check if your token is valid");
+                Thread.Sleep(1000);
+                Environment.Exit(0);
             }
         }
         #endregion
