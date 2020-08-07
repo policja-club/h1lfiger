@@ -9,8 +9,8 @@
 
 ### Feature list!
 - ✅ Account ruiner [Based on iLinked's software][https://github.com/not-ilinked/]!
-- ✅ Basic account info
-      -> Nickname 📈
+- ✅ Basic account info <p>
+    </p>  -> Nickname 📈 <p>
       -> ID 📈 
       -> Hypesquad 📈
       -> Registration date 📈
