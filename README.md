@@ -20,6 +20,6 @@
 - ⏳ 
 
 ### Connect with me:
-[<img align="left" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />](https://www.youtube.com/channel/UCdfBFiwrZLM0QZE8jM73EMA?view_as=subscriber)!
+[<img align="left" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />](https://www.youtube.com/channel/UCdfBFiwrZLM0QZE8jM73EMA?view_as=subscriber)
 
 <br />
