@@ -140,7 +140,7 @@ namespace h1lfiger
 
             switch (Console.ReadLine())
             {
-                case "1":
+                case "1": 
                     Console.Clear();
                     Console.WriteLine(hilfiger + "Enter a token: ");
                     Login(Console.ReadLine());
