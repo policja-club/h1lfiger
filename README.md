@@ -11,10 +11,10 @@
 - ✅ Account ruiner [Based on iLinked's software][https://github.com/not-ilinked/]!
 - ✅ Basic account info <p>
     </p>  -> Nickname 📈 <p>
-      -> ID 📈 
-      -> Hypesquad 📈
-      -> Registration date 📈
-      -> Badges 📈
+    </p>   -> ID 📈 <p>
+    </p>   -> Hypesquad 📈 <p>
+    </p>   -> Registration date 📈 <p>
+    </p>   -> Badges 📈 <p>
 
 ### To-Do list
 - ⏳ 
