@@ -20,9 +20,11 @@
 - ⏳ Code clean-up
 - ⏳ Data transfer through webhook
 - ⏳ Auto-Update
-- ⏳ Discord feedback server
+- ⏳ Discord server for feedback purposes
 
-### Socials:
+### Socials!
 [<img align="left" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />](https://www.youtube.com/channel/UCdfBFiwrZLM0QZE8jM73EMA?view_as=subscriber)
 [<img align="left" width="22px" src="https://cdn.icon-icons.com/icons2/2248/PNG/512/steam_icon_135152.png" />](https://steamcommunity.com/id/spookedonion/)
 <br />
+
+Hilfiger Tools - neplo 2020
