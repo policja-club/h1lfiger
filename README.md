@@ -32,5 +32,10 @@
 [<img align="left" width="22px" src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/discord-512.png" />](https://discord.gg/pkYrATc)
 <br />
 
+### FAQ and contact
+- Contact via discord - neplo#0001
+- I do not take responsability on your stolen / ruined discord accounts
+
+
 <h6 text-align="center">Tomek Hilfiger - neplo 2020</h6>
 <h6 text-align="center">Everything you can see here has been made for educational purposes and proof of concepts. I do not promote the usage of my tools, I do not take responsability on the bad usage of this tool.</h6>
