@@ -18,7 +18,7 @@
 - ✅ Exploiting tools <p>
      </p>  -> Group DM crash 📈 <p>
 - ✅ Leecher <p>
-- ✅ Data dump <p>
+- ✅ Account data dump <p>
     
 ### To-Do list
 - ⏳ Code clean-up - done
