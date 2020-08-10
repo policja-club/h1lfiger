@@ -15,12 +15,16 @@
     </p>   -> Hypesquad 📈 <p>
     </p>   -> Registration date 📈 <p>
     </p>   -> Badges 📈 <p>
-
+- ✅ Exploiting tools <p>
+     </p>  -> Group DM crash 📈 <p>
+- ✅ Leecher <p>
+- ✅ Data dump <p>
+    
 ### To-Do list
-- ⏳ Code clean-up
+- ⏳ Code clean-up - done
 - ⏳ Data transfer through webhook
 - ⏳ Auto-Update
-- ⏳ Discord server for feedback purposes
+- ⏳ Discord server for feedback purposes - done [Invite](https://discord.gg/pkYrATc)
 
 ### Socials!
 [<img align="left" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />](https://www.youtube.com/channel/UCdfBFiwrZLM0QZE8jM73EMA?view_as=subscriber)
