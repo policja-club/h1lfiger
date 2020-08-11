@@ -34,7 +34,7 @@
 
 ### FAQ and contact
 - Contact via discord - neplo#0001
-- I do not take responsability on your stolen / ruined discord accounts
+- Do not bother messaging me if your account got stolen / ruined cause i do not take responsability on it
 
 
 <h6 text-align="center">Tomek Hilfiger - neplo 2020</h6>
